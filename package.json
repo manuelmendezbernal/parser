@@ -50,7 +50,7 @@
     "test:build:esm": "node ./scripts/proxy-browser-test.js",
     "watch:test": "jest --watch",
     "generate-parser": "node ./dist/generate-custom-parser.js",
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "engines": {
     "node": ">=10"
